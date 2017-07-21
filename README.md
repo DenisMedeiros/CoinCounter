@@ -1,5 +1,5 @@
 # CoinCounter
-This is a coin counter using digital image processing.
+This is a coin counter using digital image processing. The whole project was developed in C++ with the library OpenCV 2.4.9.
 
 Basically, the project is divided in four modules:
 
@@ -18,4 +18,11 @@ Output (only one of 12 small images):
   
 * *'validator'*: uses other small images obtained by the first module in order to validate the classification of the ANN. 
 
-* *'contador'*: using the results of the 'calibrador', it reads a picture containing some several coins and count the amount of money there. 
+* *'contador'*: using the results of the 'calibrador', it reads a picture containing some several coins and count the amount of money there.  Example of execution:
+
+Input:
+![input2](https://github.com/DenisMedeiros/CoinCounter/raw/master/completas/5.jpg)
+
+Output (it counted R$ 7,00 - Brazilian Real):
+![output2](https://github.com/DenisMedeiros/CoinCounter/raw/master/contador.png)
+
