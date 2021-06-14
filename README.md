@@ -23,5 +23,23 @@ Output (only one of 12 small images):
 Input:
 ![input2](https://github.com/DenisMedeiros/CoinCounter/raw/master/completas/5.jpg)
 
+Some stages of the processing:
+
+Step 1:
+
+![processing1](https://github.com/DenisMedeiros/CoinCounter/blob/master/artigo/imagens/binaria-otsu.jpg)
+
+Step 2:
+
+![processing2](https://github.com/DenisMedeiros/CoinCounter/blob/master/artigo/imagens/circulos.jpg)
+
+Step 3:
+
+![processing3](https://github.com/DenisMedeiros/CoinCounter/blob/master/artigo/imagens/fechamento-buracos.jpg)
+
+Result after segmentation:
+
+![processing4](https://github.com/DenisMedeiros/CoinCounter/blob/master/artigo/imagens/resultado-segmentador.jpg)
+
 Output (it counted R$ 7,00 - Brazilian Real):
 ![output2](https://github.com/DenisMedeiros/CoinCounter/raw/master/contador.png)
